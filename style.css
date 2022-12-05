@@ -4,9 +4,65 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(31, 88, 31);
+}
+
 .main-container {
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    background-color: rgb(31, 88, 31);
+}
+
+h1 {
+    color: white;
+    padding: 20px 20px;
+}
+
+input {
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    height: 30px;
+}
+
+label,
+p {
+    color: white;
+    padding: 10px 10px;
+
+}
+
+button {
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(31, 88, 31);
+    color: white;
+    border-color: white;
+}
+
+.bottom-box {
+    text-align: center;
+
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(31, 88, 31);
+
+}
+
+.ul-list {
+    display: inline;
+    list-style: none;
+}
+
+.social-links {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+
 }
