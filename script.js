@@ -11,7 +11,7 @@ function compareValue(sum, luckyNumber) {
     if (sum % luckyNumber === 0) {
         result.innerHTML = "wow your b'day is lucky !"
     } else {
-        result.innerHTML = "oops! your bday is not lucky !"
+        result.innerHTML = "congrats ! you are a khanki chakka madari"
     }
 }
 
